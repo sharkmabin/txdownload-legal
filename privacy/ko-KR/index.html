@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TXDownloader 개인정보 처리방침</title>
+  <meta name="description" content="TXDownloader는 사용자가 직접 제출한 공개 X/Twitter 링크에서 미디어를 분석하고 다운로드하는 앱입니다. 계정 로그인, DM 접근, 게시, 유료 콘텐츠 우회 기능은 제공하지 않습니다. 다운로드 기록과 저장된 파일은 주로 기기에 저장됩니다. 릴리스 빌드는 Firebase Analytics와 Crashlytics를 사용하여 제품 상태, 충돌, 비치명적 오류를 파악합니다.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f8fb;
+      --panel: #ffffff;
+      --text: #172033;
+      --muted: #5e6b82;
+      --line: #dfe5ef;
+      --accent: #0b6bcb;
+      --accent-soft: #e8f2ff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #10141d;
+        --panel: #171d29;
+        --text: #eef3fb;
+        --muted: #a7b2c5;
+        --line: #2a3344;
+        --accent: #74b7ff;
+        --accent-soft: #152941;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Noto Sans CJK SC", "Noto Sans Thai", "Noto Sans KR", "Noto Sans JP", Arial, sans-serif;
+      line-height: 1.65;
+    }
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 36px 0 56px;
+    }
+    header, section, footer {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 22px;
+      margin-bottom: 14px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.12;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.18rem;
+      letter-spacing: 0;
+    }
+    p { margin: 0; }
+    .meta, .summary, footer { color: var(--muted); }
+    .summary {
+      background: var(--accent-soft);
+      border-color: var(--line);
+    }
+    .language-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+    a {
+      color: var(--accent);
+      text-underline-offset: 3px;
+    }
+    .language-nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 36px;
+      padding: 6px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--panel);
+      text-decoration: none;
+      font-weight: 650;
+    }
+    .language-nav a[aria-current="page"] {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>TXDownloader 개인정보 처리방침</h1>
+      <p class="meta">업데이트 날짜: 2026-05-31 | 버전: V1.0</p>
+      <nav class="language-nav" aria-label="다른 언어"><a href="https://sharkmabin.github.io/txdownload-legal/privacy/zh-CN/">简体中文</a><a href="https://sharkmabin.github.io/txdownload-legal/privacy/en-US/">English</a><a href="https://sharkmabin.github.io/txdownload-legal/privacy/ja-JP/">日本語</a><a aria-current="page" href="https://sharkmabin.github.io/txdownload-legal/privacy/ko-KR/">한국어</a><a href="https://sharkmabin.github.io/txdownload-legal/privacy/th-TH/">ไทย</a><a href="https://sharkmabin.github.io/txdownload-legal/privacy/vi-VN/">Tiếng Việt</a></nav>
+    </header>
+    <section class="summary">
+      <h2>요약</h2>
+      <p>TXDownloader는 사용자가 직접 제출한 공개 X/Twitter 링크에서 미디어를 분석하고 다운로드하는 앱입니다. 계정 로그인, DM 접근, 게시, 유료 콘텐츠 우회 기능은 제공하지 않습니다. 다운로드 기록과 저장된 파일은 주로 기기에 저장됩니다. 릴리스 빌드는 Firebase Analytics와 Crashlytics를 사용하여 제품 상태, 충돌, 비치명적 오류를 파악합니다.</p>
+    </section>
+    <section>
+      <h2>1. 적용 범위</h2>
+      <p>본 방침은 TXDownloader에 적용됩니다. 이 앱은 사용자가 직접 제출한 공개 X/Twitter 링크의 미디어를 분석하고 다운로드하는 도구입니다. 계정 등록, 소셜 로그인, 게시, DM 접근, 유료 콘텐츠 우회 기능은 제공하지 않습니다.</p>
+    </section>
+    <section>
+      <h2>2. 처리하는 정보</h2>
+      <p>앱은 사용자가 입력, 붙여넣기 또는 공유한 공개 X/Twitter 링크와 공유 텍스트, 결과 표시를 위해 필요한 공개 게시물 정보, 로컬 다운로드 기록, 분석/다운로드/재생 실패 진단에 사용하는 로그와 오류 정보, Firebase Analytics와 Crashlytics가 수집하는 충돌 로그, 진단 정보, 앱 상호작용, 기기/앱 메타데이터, 제품 상태 신호를 처리할 수 있습니다.</p>
+    </section>
+    <section>
+      <h2>3. 이용 목적</h2>
+      <p>이 정보는 공개 링크 식별, 다운로드 가능한 미디어 분석, 파일의 로컬 저장, 다운로드 기록 표시, 로컬 미리보기/재생, 실패 원인 진단, 안정성 개선, 핵심 기능 동작 확인에만 사용됩니다. 광고 프로파일링, 개인화 추천, 사용자 추적 또는 판매에는 사용하지 않습니다.</p>
+    </section>
+    <section>
+      <h2>4. Firebase Analytics 및 Crashlytics</h2>
+      <p>릴리스 빌드는 Firebase Analytics와 Firebase Crashlytics를 사용합니다. Analytics는 분석, 다운로드, 기록 필터, 언어 변경, 알림 권한 결과와 같은 집계 이벤트에 사용됩니다. Crashlytics는 충돌과 정제된 비치명적 예외를 기록하는 데 사용됩니다. 원본 X/Twitter 링크, 미디어 URL, 쿠키, 인증 헤더, 토큰, 게시물 본문, 사용자 이름, 파일 이름 또는 진단 로그 본문을 Analytics 이벤트 매개변수나 Crashlytics 사용자 지정 키로 의도적으로 전송하지 않습니다.</p>
+    </section>
+    <section>
+      <h2>5. 제3자 서비스 및 네트워크 요청</h2>
+      <p>미디어를 분석하고 다운로드할 때 앱은 사용자가 제출한 링크의 대상 페이지, 공개 미디어 리소스, 필요한 경우 대체 분석 서비스에 접근할 수 있습니다. 해당 사이트나 서비스는 자체 규칙에 따라 요청을 기록할 수 있습니다. Firebase 데이터 처리는 Google Firebase 약관 및 개인정보 관행을 따릅니다.</p>
+    </section>
+    <section>
+      <h2>6. 로컬 저장, 권한 및 삭제</h2>
+      <p>다운로드 기록은 주로 기기에 저장됩니다. 다운로드한 이미지, 동영상, GIF는 시스템 다운로드 폴더 또는 앱이 접근 가능한 미디어 위치에 저장됩니다. 네트워크 접근 권한이 필요하며, 백그라운드 다운로드에는 포그라운드 서비스 알림이 사용될 수 있습니다. 앱에서 기록을 삭제하고, 시스템 설정에서 앱 데이터를 지우고, 파일 관리자로 다운로드한 파일을 삭제할 수 있습니다.</p>
+    </section>
+    <section>
+      <h2>7. 미성년자</h2>
+      <p>이 앱은 어린이를 대상으로 하지 않습니다. 미성년자는 보호자의 지도를 받아 법률, 플랫폼 규칙 및 콘텐츠 권리자가 허용한 콘텐츠만 다운로드해야 합니다.</p>
+    </section>
+    <section>
+      <h2>8. 면책 조항 및 문의</h2>
+      <p>저장하고 사용할 권리가 있는 공개 콘텐츠만 다운로드하고 X/Twitter 및 관련 사이트의 약관, 저작권 규칙, 현지 법률을 준수해야 합니다. TXDownloader는 X/Twitter와 관련이 없으며 저작권 침해, 불법 배포, 개인정보 침해 또는 유료 콘텐츠 우회를 장려하거나 지원하지 않습니다. 데이터 처리 방식이 바뀌는 기능이 추가되면 본 방침을 업데이트합니다.</p>
+    </section>
+    <footer>
+      <h2>문의</h2>
+      <p>개인정보 관련 문의는 TXDownloader GitHub Issues를 통해 연락해 주세요. <a href="https://github.com/sharkmabin/TXDownloader/issues">https://github.com/sharkmabin/TXDownloader/issues</a></p>
+    </footer>
+  </main>
+</body>
+</html>

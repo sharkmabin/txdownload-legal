@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>นโยบายความเป็นส่วนตัวของ TXDownloader</title>
+  <meta name="description" content="TXDownloader ใช้สำหรับวิเคราะห์และดาวน์โหลดสื่อจากลิงก์ X/Twitter สาธารณะที่ผู้ใช้ส่งเข้ามาเอง แอปไม่มีการเข้าสู่ระบบบัญชี การเข้าถึงข้อความส่วนตัว การโพสต์ หรือการเลี่ยงเนื้อหาแบบชำระเงิน ประวัติการดาวน์โหลดและไฟล์ที่ดาวน์โหลดจะเก็บไว้ในอุปกรณ์เป็นหลัก เวอร์ชันเผยแพร่ใช้ Firebase Analytics และ Crashlytics เพื่อดูสถานะผลิตภัณฑ์ การขัดข้อง และข้อผิดพลาดที่ไม่ร้ายแรง">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f8fb;
+      --panel: #ffffff;
+      --text: #172033;
+      --muted: #5e6b82;
+      --line: #dfe5ef;
+      --accent: #0b6bcb;
+      --accent-soft: #e8f2ff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #10141d;
+        --panel: #171d29;
+        --text: #eef3fb;
+        --muted: #a7b2c5;
+        --line: #2a3344;
+        --accent: #74b7ff;
+        --accent-soft: #152941;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Noto Sans CJK SC", "Noto Sans Thai", "Noto Sans KR", "Noto Sans JP", Arial, sans-serif;
+      line-height: 1.65;
+    }
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 36px 0 56px;
+    }
+    header, section, footer {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 22px;
+      margin-bottom: 14px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.12;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.18rem;
+      letter-spacing: 0;
+    }
+    p { margin: 0; }
+    .meta, .summary, footer { color: var(--muted); }
+    .summary {
+      background: var(--accent-soft);
+      border-color: var(--line);
+    }
+    .language-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+    a {
+      color: var(--accent);
+      text-underline-offset: 3px;
+    }
+    .language-nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 36px;
+      padding: 6px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--panel);
+      text-decoration: none;
+      font-weight: 650;
+    }
+    .language-nav a[aria-current="page"] {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>นโยบายความเป็นส่วนตัวของ TXDownloader</h1>
+      <p class="meta">อัปเดต: 2026-05-31 | เวอร์ชัน: V1.0</p>
+      <nav class="language-nav" aria-label="ภาษาอื่น"><a href="https://sharkmabin.github.io/txdownload-legal/privacy/zh-CN/">简体中文</a><a href="https://sharkmabin.github.io/txdownload-legal/privacy/en-US/">English</a><a href="https://sharkmabin.github.io/txdownload-legal/privacy/ja-JP/">日本語</a><a href="https://sharkmabin.github.io/txdownload-legal/privacy/ko-KR/">한국어</a><a aria-current="page" href="https://sharkmabin.github.io/txdownload-legal/privacy/th-TH/">ไทย</a><a href="https://sharkmabin.github.io/txdownload-legal/privacy/vi-VN/">Tiếng Việt</a></nav>
+    </header>
+    <section class="summary">
+      <h2>สรุป</h2>
+      <p>TXDownloader ใช้สำหรับวิเคราะห์และดาวน์โหลดสื่อจากลิงก์ X/Twitter สาธารณะที่ผู้ใช้ส่งเข้ามาเอง แอปไม่มีการเข้าสู่ระบบบัญชี การเข้าถึงข้อความส่วนตัว การโพสต์ หรือการเลี่ยงเนื้อหาแบบชำระเงิน ประวัติการดาวน์โหลดและไฟล์ที่ดาวน์โหลดจะเก็บไว้ในอุปกรณ์เป็นหลัก เวอร์ชันเผยแพร่ใช้ Firebase Analytics และ Crashlytics เพื่อดูสถานะผลิตภัณฑ์ การขัดข้อง และข้อผิดพลาดที่ไม่ร้ายแรง</p>
+    </section>
+    <section>
+      <h2>1. ขอบเขต</h2>
+      <p>นโยบายนี้ใช้กับ TXDownloader แอปนี้เป็นเครื่องมือสำหรับวิเคราะห์และดาวน์โหลดสื่อจากลิงก์ X/Twitter สาธารณะที่ผู้ใช้ส่งเข้ามาเอง แอปไม่มีการลงทะเบียนบัญชี การเข้าสู่ระบบโซเชียล การโพสต์ การเข้าถึงข้อความส่วนตัว หรือการเลี่ยงเนื้อหาแบบชำระเงิน</p>
+    </section>
+    <section>
+      <h2>2. ข้อมูลที่ประมวลผล</h2>
+      <p>แอปอาจประมวลผลลิงก์ X/Twitter สาธารณะและข้อความแชร์ที่คุณป้อน วาง หรือแชร์มายังแอป ข้อมูลโพสต์สาธารณะที่จำเป็นต่อการแสดงผล ประวัติการดาวน์โหลดในเครื่อง บันทึกและข้อมูลข้อผิดพลาดที่ใช้วิเคราะห์ปัญหา และข้อมูลจาก Firebase Analytics และ Crashlytics เช่น บันทึกการขัดข้อง ข้อมูลวินิจฉัย การโต้ตอบในแอป เมตาดาต้าของอุปกรณ์/แอป และสัญญาณสถานะผลิตภัณฑ์</p>
+    </section>
+    <section>
+      <h2>3. วัตถุประสงค์การใช้ข้อมูล</h2>
+      <p>ข้อมูลเหล่านี้ใช้เพื่อระบุลิงก์สาธารณะที่คุณส่ง วิเคราะห์สื่อที่ดาวน์โหลดได้ บันทึกไฟล์ไว้ในเครื่อง แสดงประวัติ รองรับการดูตัวอย่าง/เล่นในเครื่อง วิเคราะห์สาเหตุความล้มเหลว ปรับปรุงความเสถียร และตรวจสอบว่าฟีเจอร์หลักทำงานได้หรือไม่ เราไม่ใช้ข้อมูลนี้เพื่อโปรไฟล์โฆษณา คำแนะนำเฉพาะบุคคล การติดตามผู้ใช้ หรือการขาย</p>
+    </section>
+    <section>
+      <h2>4. Firebase Analytics และ Crashlytics</h2>
+      <p>เวอร์ชันเผยแพร่ใช้ Firebase Analytics และ Firebase Crashlytics Analytics ใช้สำหรับเหตุการณ์รวม เช่น การวิเคราะห์ การดาวน์โหลด ตัวกรองประวัติ การเปลี่ยนภาษา และผลสิทธิ์การแจ้งเตือน Crashlytics ใช้บันทึกการขัดข้องและข้อยกเว้นที่ไม่ร้ายแรงซึ่งผ่านการลดความเสี่ยงแล้ว เราไม่ตั้งใจส่งลิงก์ X/Twitter ดิบ URL สื่อ คุกกี้ ส่วนหัวการอนุญาต โทเค็น ข้อความโพสต์ ชื่อผู้ใช้ ชื่อไฟล์ หรือเนื้อหาบันทึกวินิจฉัยเป็นพารามิเตอร์ Analytics หรือคีย์ Crashlytics</p>
+    </section>
+    <section>
+      <h2>5. บริการภายนอกและคำขอเครือข่าย</h2>
+      <p>เมื่อวิเคราะห์และดาวน์โหลดสื่อ แอปอาจเข้าถึงหน้าปลายทาง ทรัพยากรสื่อสาธารณะ และบริการวิเคราะห์สำรองที่จำเป็นสำหรับลิงก์ที่คุณส่ง เว็บไซต์หรือบริการเหล่านั้นอาจบันทึกคำขอตามกฎของตนเอง การประมวลผลข้อมูลของ Firebase อยู่ภายใต้ข้อกำหนดและแนวปฏิบัติด้านความเป็นส่วนตัวของ Google Firebase</p>
+    </section>
+    <section>
+      <h2>6. การจัดเก็บ สิทธิ์ และการลบ</h2>
+      <p>ประวัติการดาวน์โหลดจะเก็บไว้ในอุปกรณ์เป็นหลัก รูปภาพ วิดีโอ และ GIF ที่ดาวน์โหลดจะบันทึกไว้ในโฟลเดอร์ดาวน์โหลดของระบบหรือพื้นที่สื่อที่แอปเข้าถึงได้ ต้องใช้สิทธิ์เครือข่าย และอาจใช้การแจ้งเตือนบริการเบื้องหน้าสำหรับการดาวน์โหลดเบื้องหลัง คุณสามารถลบประวัติในแอป ล้างข้อมูลแอปในการตั้งค่าระบบ หรือลบไฟล์ที่ดาวน์โหลดผ่านตัวจัดการไฟล์</p>
+    </section>
+    <section>
+      <h2>7. ผู้เยาว์</h2>
+      <p>แอปนี้ไม่ได้มุ่งเป้าไปที่เด็ก ผู้เยาว์ควรใช้งานภายใต้คำแนะนำของผู้ปกครอง และดาวน์โหลดเฉพาะเนื้อหาที่กฎหมาย กฎของแพลตฟอร์ม และเจ้าของสิทธิ์อนุญาต</p>
+    </section>
+    <section>
+      <h2>8. ข้อจำกัดความรับผิดและการติดต่อ</h2>
+      <p>โปรดดาวน์โหลดเฉพาะเนื้อหาสาธารณะที่คุณมีสิทธิ์บันทึกและใช้งาน และปฏิบัติตามข้อกำหนด กฎลิขสิทธิ์ และกฎหมายท้องถิ่นที่เกี่ยวข้องกับ X/Twitter และเว็บไซต์ที่เกี่ยวข้อง TXDownloader ไม่มีความเกี่ยวข้องกับ X/Twitter และไม่สนับสนุนการละเมิดลิขสิทธิ์ การเผยแพร่ที่ผิดกฎหมาย การละเมิดความเป็นส่วนตัว หรือการเลี่ยงเนื้อหาแบบชำระเงิน หากมีฟีเจอร์ที่เปลี่ยนวิธีประมวลผลข้อมูล นโยบายนี้จะได้รับการอัปเดต</p>
+    </section>
+    <footer>
+      <h2>ติดต่อ</h2>
+      <p>สำหรับข้อเสนอแนะด้านความเป็นส่วนตัว โปรดติดต่อผ่าน TXDownloader GitHub Issues <a href="https://github.com/sharkmabin/TXDownloader/issues">https://github.com/sharkmabin/TXDownloader/issues</a></p>
+    </footer>
+  </main>
+</body>
+</html>

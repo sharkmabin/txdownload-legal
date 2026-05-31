@@ -1,0 +1,284 @@
+{
+  "updated": "2026-05-31",
+  "version": "1.0",
+  "baseUrl": "https://sharkmabin.github.io/txdownload-legal",
+  "contactUrl": "https://github.com/sharkmabin/TXDownloader/issues",
+  "locales": [
+    {
+      "code": "zh-CN",
+      "name": "简体中文",
+      "htmlLang": "zh-CN",
+      "title": "TXDownloader 隐私政策",
+      "updatedLabel": "更新日期：2026-05-31｜版本：V1.0",
+      "summaryTitle": "摘要",
+      "summary": "TXDownloader 用于解析和下载用户主动提交的公开 X/Twitter 媒体链接。应用不提供账号登录、私信读取、内容发布或付费内容绕过能力。下载历史和已下载文件主要保存在你的设备上。Release 版本使用 Firebase Analytics 和 Crashlytics 了解产品健康状况、崩溃和非致命错误。",
+      "languageLabel": "其他语言",
+      "contactLabel": "联系我们",
+      "contactText": "如需反馈隐私相关问题，请通过 TXDownloader GitHub Issues 联系我们。",
+      "sections": [
+        {
+          "title": "一、适用范围",
+          "body": "本政策适用于 TXDownloader App。TXDownloader 是一个面向用户主动提交的公开 X/Twitter 链接的媒体解析与下载工具。我们不提供账号注册、社交平台登录、内容发布、私信读取或付费内容绕过能力。"
+        },
+        {
+          "title": "二、我们处理哪些信息",
+          "body": "我们可能处理你主动输入、粘贴或分享给应用的公开 X/Twitter 链接和分享文本；为展示解析结果而临时处理的公开帖子信息；下载历史记录；应用运行日志与错误信息；以及 Firebase Analytics 与 Crashlytics 收集的崩溃日志、诊断信息、应用交互、设备和应用元数据、产品健康信号。"
+        },
+        {
+          "title": "三、使用目的",
+          "body": "这些信息仅用于识别公开链接、解析可下载媒体、保存文件到本机、展示下载历史、支持本地预览和播放、诊断失败原因、改进稳定性和了解核心功能是否正常工作。我们不会把这些信息用于广告画像、个性化推荐、用户跟踪或出售。"
+        },
+        {
+          "title": "四、Firebase Analytics 与 Crashlytics",
+          "body": "Release 版本使用 Firebase Analytics 和 Firebase Crashlytics。Analytics 用于统计解析、下载、历史筛选、语言切换、通知权限结果等聚合事件。Crashlytics 用于记录崩溃和经过脱敏的非致命异常。我们不会故意把原始 X/Twitter 链接、媒体 URL、Cookie、授权头、Token、推文正文、用户名、文件名或诊断日志正文作为 Analytics 事件参数或 Crashlytics 自定义键发送。"
+        },
+        {
+          "title": "五、第三方服务与网络请求",
+          "body": "解析和下载媒体时，应用会访问你提交链接对应的目标页面、公开媒体资源地址，以及必要时的备用解析接口。相关网站或接口可能根据其自身规则记录访问请求。Firebase 数据处理受 Google Firebase 服务条款和隐私实践约束。"
+        },
+        {
+          "title": "六、本地存储、权限与删除",
+          "body": "下载历史主要保存在设备本机。下载的图片、视频或 GIF 会保存到系统下载目录或应用可访问的媒体位置。应用需要网络权限；后台下载时可能使用前台服务和通知权限。你可以在应用内删除历史记录，在系统设置中清除应用数据，或通过系统文件管理器删除已下载文件。"
+        },
+        {
+          "title": "七、未成年人保护",
+          "body": "本应用不面向儿童单独提供服务。未成年人应在监护人指导下使用本应用，并确保下载和使用公开媒体内容符合法律法规、平台规则及内容权利人的要求。"
+        },
+        {
+          "title": "八、免责声明与联系我们",
+          "body": "你应仅下载你有权保存和使用的公开内容，并遵守 X/Twitter 及相关网站的服务条款、版权规则和当地法律法规。TXDownloader 与 X/Twitter 没有关联，不鼓励也不支持下载、传播侵权、违法、隐私泄露或付费受限内容。如果后续功能改变数据处理方式，本政策会同步更新。"
+        }
+      ]
+    },
+    {
+      "code": "en-US",
+      "name": "English",
+      "htmlLang": "en",
+      "title": "TXDownloader Privacy Policy",
+      "updatedLabel": "Updated: 2026-05-31 | Version: V1.0",
+      "summaryTitle": "Summary",
+      "summary": "TXDownloader parses and downloads media from public X/Twitter links that users actively submit. The app does not provide account login, direct-message access, posting, or paid-content bypass. Download history and downloaded files are mainly stored on your device. Release builds use Firebase Analytics and Crashlytics to understand product health, crashes, and non-fatal failures.",
+      "languageLabel": "Other languages",
+      "contactLabel": "Contact",
+      "contactText": "For privacy-related feedback, contact us through TXDownloader GitHub Issues.",
+      "sections": [
+        {
+          "title": "1. Scope",
+          "body": "This policy applies to TXDownloader. The app parses and downloads media from public X/Twitter links that users actively submit. It does not provide account registration, social login, posting, direct-message access, or paid-content bypass."
+        },
+        {
+          "title": "2. Information processed",
+          "body": "The app may process public X/Twitter links and share text you enter, paste, or share to the app; temporary public post information needed to show results; local download history; app logs and error information; and crash logs, diagnostics, app interactions, device/app metadata, and product-health signals collected by Firebase Analytics and Crashlytics."
+        },
+        {
+          "title": "3. How information is used",
+          "body": "This information is used only to identify public links you submit, parse downloadable media, save files locally, show download history, support local preview/playback, diagnose failures, improve stability, and understand whether core features are working. We do not use this information for advertising profiles, personalized recommendations, user tracking, or sale."
+        },
+        {
+          "title": "4. Firebase Analytics and Crashlytics",
+          "body": "Release builds use Firebase Analytics and Firebase Crashlytics. Analytics is used for aggregate events such as parsing, downloads, history filters, language changes, and notification permission results. Crashlytics is used to record crashes and sanitized non-fatal exceptions. We do not intentionally send raw X/Twitter links, media URLs, cookies, authorization headers, tokens, post text, usernames, file names, or diagnostic log contents as Analytics event parameters or Crashlytics custom keys."
+        },
+        {
+          "title": "5. Third-party services and network requests",
+          "body": "When parsing and downloading media, the app may access the target page, public media resources, and fallback parser services required for a link you submitted. Those websites or services may log requests according to their own rules. Firebase data processing is governed by Google Firebase terms and privacy practices."
+        },
+        {
+          "title": "6. Local storage, permissions, and deletion",
+          "body": "Download history is stored mainly on the device. Downloaded images, videos, and GIFs are saved to the system downloads folder or another media location accessible to the app. Network access is required; foreground-service notifications may be used for background downloads. You can delete history in the app, clear app data in system settings, or delete downloaded files through a file manager."
+        },
+        {
+          "title": "7. Minors",
+          "body": "This app is not directed to children. Minors should use it with guardian guidance and only download content allowed by laws, platform rules, and content owners."
+        },
+        {
+          "title": "8. Disclaimer and contact",
+          "body": "Only download public content you have the right to save and use, and follow the terms, copyright rules, and local laws that apply to X/Twitter and related websites. TXDownloader is not affiliated with X/Twitter and does not encourage or support copyright infringement, illegal distribution, privacy violations, or paid-content bypass. If future features change data processing, this policy will be updated."
+        }
+      ]
+    },
+    {
+      "code": "ja-JP",
+      "name": "日本語",
+      "htmlLang": "ja",
+      "title": "TXDownloader プライバシーポリシー",
+      "updatedLabel": "更新日：2026-05-31｜バージョン：V1.0",
+      "summaryTitle": "概要",
+      "summary": "TXDownloader は、ユーザーが自ら送信した公開 X/Twitter リンクからメディアを解析し、ダウンロードするアプリです。アカウントログイン、DM へのアクセス、投稿、有料コンテンツの回避機能は提供しません。ダウンロード履歴と保存されたファイルは主に端末内に保存されます。リリース版では Firebase Analytics と Crashlytics を使用し、製品の健全性、クラッシュ、非致命的なエラーを把握します。",
+      "languageLabel": "他の言語",
+      "contactLabel": "お問い合わせ",
+      "contactText": "プライバシーに関するご連絡は、TXDownloader の GitHub Issues からお願いします。",
+      "sections": [
+        {
+          "title": "1. 適用範囲",
+          "body": "本ポリシーは TXDownloader に適用されます。本アプリは、ユーザーが自ら送信した公開 X/Twitter リンクのメディアを解析し、ダウンロードするツールです。アカウント登録、ソーシャルログイン、投稿、DM へのアクセス、有料コンテンツの回避機能は提供しません。"
+        },
+        {
+          "title": "2. 処理する情報",
+          "body": "本アプリは、ユーザーが入力、貼り付け、または共有した公開 X/Twitter リンクと共有テキスト、結果表示に必要な公開投稿情報、ローカルのダウンロード履歴、解析・ダウンロード・再生失敗の診断に使うログとエラー情報、Firebase Analytics と Crashlytics が収集するクラッシュログ、診断情報、アプリ操作、端末/アプリのメタデータ、製品健全性シグナルを処理する場合があります。"
+        },
+        {
+          "title": "3. 利用目的",
+          "body": "これらの情報は、公開リンクの識別、ダウンロード可能なメディアの解析、ファイルの端末保存、履歴表示、ローカルプレビュー/再生、失敗原因の診断、安定性改善、主要機能が正常に動作しているかの把握にのみ使用されます。広告プロファイル、個別おすすめ、ユーザー追跡、販売には使用しません。"
+        },
+        {
+          "title": "4. Firebase Analytics と Crashlytics",
+          "body": "リリース版では Firebase Analytics と Firebase Crashlytics を使用します。Analytics は解析、ダウンロード、履歴フィルター、言語変更、通知権限結果などの集計イベントに使用します。Crashlytics はクラッシュとサニタイズ済みの非致命的例外の記録に使用します。元の X/Twitter リンク、メディア URL、Cookie、認可ヘッダー、トークン、投稿本文、ユーザー名、ファイル名、診断ログ本文を Analytics のイベントパラメータや Crashlytics のカスタムキーとして意図的に送信しません。"
+        },
+        {
+          "title": "5. 第三者サービスとネットワーク要求",
+          "body": "メディアの解析とダウンロード時に、本アプリは送信されたリンクの対象ページ、公開メディアリソース、必要に応じた代替解析サービスにアクセスする場合があります。これらのサイトやサービスは各自のルールに基づきリクエストを記録することがあります。Firebase のデータ処理は Google Firebase の規約とプライバシー慣行に従います。"
+        },
+        {
+          "title": "6. ローカル保存、権限、削除",
+          "body": "ダウンロード履歴は主に端末内に保存されます。画像、動画、GIF はシステムのダウンロードフォルダまたはアプリがアクセス可能なメディア保存先に保存されます。ネットワークアクセスが必要であり、バックグラウンドダウンロードにはフォアグラウンドサービス通知を使用する場合があります。アプリ内で履歴を削除し、システム設定でアプリデータを消去し、ファイル管理アプリで保存済みファイルを削除できます。"
+        },
+        {
+          "title": "7. 未成年者",
+          "body": "本アプリは子どもを対象としていません。未成年者は保護者の指導のもと、法律、プラットフォーム規則、権利者の条件で許可されたコンテンツのみをダウンロードしてください。"
+        },
+        {
+          "title": "8. 免責事項と連絡",
+          "body": "保存および利用する権利を持つ公開コンテンツのみをダウンロードし、X/Twitter および関連サイトの規約、著作権規則、適用法を遵守してください。TXDownloader は X/Twitter と提携しておらず、著作権侵害、違法配布、プライバシー侵害、有料コンテンツの回避を推奨または支援しません。データ処理が変わる機能を追加した場合、本ポリシーを更新します。"
+        }
+      ]
+    },
+    {
+      "code": "ko-KR",
+      "name": "한국어",
+      "htmlLang": "ko",
+      "title": "TXDownloader 개인정보 처리방침",
+      "updatedLabel": "업데이트 날짜: 2026-05-31 | 버전: V1.0",
+      "summaryTitle": "요약",
+      "summary": "TXDownloader는 사용자가 직접 제출한 공개 X/Twitter 링크에서 미디어를 분석하고 다운로드하는 앱입니다. 계정 로그인, DM 접근, 게시, 유료 콘텐츠 우회 기능은 제공하지 않습니다. 다운로드 기록과 저장된 파일은 주로 기기에 저장됩니다. 릴리스 빌드는 Firebase Analytics와 Crashlytics를 사용하여 제품 상태, 충돌, 비치명적 오류를 파악합니다.",
+      "languageLabel": "다른 언어",
+      "contactLabel": "문의",
+      "contactText": "개인정보 관련 문의는 TXDownloader GitHub Issues를 통해 연락해 주세요.",
+      "sections": [
+        {
+          "title": "1. 적용 범위",
+          "body": "본 방침은 TXDownloader에 적용됩니다. 이 앱은 사용자가 직접 제출한 공개 X/Twitter 링크의 미디어를 분석하고 다운로드하는 도구입니다. 계정 등록, 소셜 로그인, 게시, DM 접근, 유료 콘텐츠 우회 기능은 제공하지 않습니다."
+        },
+        {
+          "title": "2. 처리하는 정보",
+          "body": "앱은 사용자가 입력, 붙여넣기 또는 공유한 공개 X/Twitter 링크와 공유 텍스트, 결과 표시를 위해 필요한 공개 게시물 정보, 로컬 다운로드 기록, 분석/다운로드/재생 실패 진단에 사용하는 로그와 오류 정보, Firebase Analytics와 Crashlytics가 수집하는 충돌 로그, 진단 정보, 앱 상호작용, 기기/앱 메타데이터, 제품 상태 신호를 처리할 수 있습니다."
+        },
+        {
+          "title": "3. 이용 목적",
+          "body": "이 정보는 공개 링크 식별, 다운로드 가능한 미디어 분석, 파일의 로컬 저장, 다운로드 기록 표시, 로컬 미리보기/재생, 실패 원인 진단, 안정성 개선, 핵심 기능 동작 확인에만 사용됩니다. 광고 프로파일링, 개인화 추천, 사용자 추적 또는 판매에는 사용하지 않습니다."
+        },
+        {
+          "title": "4. Firebase Analytics 및 Crashlytics",
+          "body": "릴리스 빌드는 Firebase Analytics와 Firebase Crashlytics를 사용합니다. Analytics는 분석, 다운로드, 기록 필터, 언어 변경, 알림 권한 결과와 같은 집계 이벤트에 사용됩니다. Crashlytics는 충돌과 정제된 비치명적 예외를 기록하는 데 사용됩니다. 원본 X/Twitter 링크, 미디어 URL, 쿠키, 인증 헤더, 토큰, 게시물 본문, 사용자 이름, 파일 이름 또는 진단 로그 본문을 Analytics 이벤트 매개변수나 Crashlytics 사용자 지정 키로 의도적으로 전송하지 않습니다."
+        },
+        {
+          "title": "5. 제3자 서비스 및 네트워크 요청",
+          "body": "미디어를 분석하고 다운로드할 때 앱은 사용자가 제출한 링크의 대상 페이지, 공개 미디어 리소스, 필요한 경우 대체 분석 서비스에 접근할 수 있습니다. 해당 사이트나 서비스는 자체 규칙에 따라 요청을 기록할 수 있습니다. Firebase 데이터 처리는 Google Firebase 약관 및 개인정보 관행을 따릅니다."
+        },
+        {
+          "title": "6. 로컬 저장, 권한 및 삭제",
+          "body": "다운로드 기록은 주로 기기에 저장됩니다. 다운로드한 이미지, 동영상, GIF는 시스템 다운로드 폴더 또는 앱이 접근 가능한 미디어 위치에 저장됩니다. 네트워크 접근 권한이 필요하며, 백그라운드 다운로드에는 포그라운드 서비스 알림이 사용될 수 있습니다. 앱에서 기록을 삭제하고, 시스템 설정에서 앱 데이터를 지우고, 파일 관리자로 다운로드한 파일을 삭제할 수 있습니다."
+        },
+        {
+          "title": "7. 미성년자",
+          "body": "이 앱은 어린이를 대상으로 하지 않습니다. 미성년자는 보호자의 지도를 받아 법률, 플랫폼 규칙 및 콘텐츠 권리자가 허용한 콘텐츠만 다운로드해야 합니다."
+        },
+        {
+          "title": "8. 면책 조항 및 문의",
+          "body": "저장하고 사용할 권리가 있는 공개 콘텐츠만 다운로드하고 X/Twitter 및 관련 사이트의 약관, 저작권 규칙, 현지 법률을 준수해야 합니다. TXDownloader는 X/Twitter와 관련이 없으며 저작권 침해, 불법 배포, 개인정보 침해 또는 유료 콘텐츠 우회를 장려하거나 지원하지 않습니다. 데이터 처리 방식이 바뀌는 기능이 추가되면 본 방침을 업데이트합니다."
+        }
+      ]
+    },
+    {
+      "code": "th-TH",
+      "name": "ไทย",
+      "htmlLang": "th",
+      "title": "นโยบายความเป็นส่วนตัวของ TXDownloader",
+      "updatedLabel": "อัปเดต: 2026-05-31 | เวอร์ชัน: V1.0",
+      "summaryTitle": "สรุป",
+      "summary": "TXDownloader ใช้สำหรับวิเคราะห์และดาวน์โหลดสื่อจากลิงก์ X/Twitter สาธารณะที่ผู้ใช้ส่งเข้ามาเอง แอปไม่มีการเข้าสู่ระบบบัญชี การเข้าถึงข้อความส่วนตัว การโพสต์ หรือการเลี่ยงเนื้อหาแบบชำระเงิน ประวัติการดาวน์โหลดและไฟล์ที่ดาวน์โหลดจะเก็บไว้ในอุปกรณ์เป็นหลัก เวอร์ชันเผยแพร่ใช้ Firebase Analytics และ Crashlytics เพื่อดูสถานะผลิตภัณฑ์ การขัดข้อง และข้อผิดพลาดที่ไม่ร้ายแรง",
+      "languageLabel": "ภาษาอื่น",
+      "contactLabel": "ติดต่อ",
+      "contactText": "สำหรับข้อเสนอแนะด้านความเป็นส่วนตัว โปรดติดต่อผ่าน TXDownloader GitHub Issues",
+      "sections": [
+        {
+          "title": "1. ขอบเขต",
+          "body": "นโยบายนี้ใช้กับ TXDownloader แอปนี้เป็นเครื่องมือสำหรับวิเคราะห์และดาวน์โหลดสื่อจากลิงก์ X/Twitter สาธารณะที่ผู้ใช้ส่งเข้ามาเอง แอปไม่มีการลงทะเบียนบัญชี การเข้าสู่ระบบโซเชียล การโพสต์ การเข้าถึงข้อความส่วนตัว หรือการเลี่ยงเนื้อหาแบบชำระเงิน"
+        },
+        {
+          "title": "2. ข้อมูลที่ประมวลผล",
+          "body": "แอปอาจประมวลผลลิงก์ X/Twitter สาธารณะและข้อความแชร์ที่คุณป้อน วาง หรือแชร์มายังแอป ข้อมูลโพสต์สาธารณะที่จำเป็นต่อการแสดงผล ประวัติการดาวน์โหลดในเครื่อง บันทึกและข้อมูลข้อผิดพลาดที่ใช้วิเคราะห์ปัญหา และข้อมูลจาก Firebase Analytics และ Crashlytics เช่น บันทึกการขัดข้อง ข้อมูลวินิจฉัย การโต้ตอบในแอป เมตาดาต้าของอุปกรณ์/แอป และสัญญาณสถานะผลิตภัณฑ์"
+        },
+        {
+          "title": "3. วัตถุประสงค์การใช้ข้อมูล",
+          "body": "ข้อมูลเหล่านี้ใช้เพื่อระบุลิงก์สาธารณะที่คุณส่ง วิเคราะห์สื่อที่ดาวน์โหลดได้ บันทึกไฟล์ไว้ในเครื่อง แสดงประวัติ รองรับการดูตัวอย่าง/เล่นในเครื่อง วิเคราะห์สาเหตุความล้มเหลว ปรับปรุงความเสถียร และตรวจสอบว่าฟีเจอร์หลักทำงานได้หรือไม่ เราไม่ใช้ข้อมูลนี้เพื่อโปรไฟล์โฆษณา คำแนะนำเฉพาะบุคคล การติดตามผู้ใช้ หรือการขาย"
+        },
+        {
+          "title": "4. Firebase Analytics และ Crashlytics",
+          "body": "เวอร์ชันเผยแพร่ใช้ Firebase Analytics และ Firebase Crashlytics Analytics ใช้สำหรับเหตุการณ์รวม เช่น การวิเคราะห์ การดาวน์โหลด ตัวกรองประวัติ การเปลี่ยนภาษา และผลสิทธิ์การแจ้งเตือน Crashlytics ใช้บันทึกการขัดข้องและข้อยกเว้นที่ไม่ร้ายแรงซึ่งผ่านการลดความเสี่ยงแล้ว เราไม่ตั้งใจส่งลิงก์ X/Twitter ดิบ URL สื่อ คุกกี้ ส่วนหัวการอนุญาต โทเค็น ข้อความโพสต์ ชื่อผู้ใช้ ชื่อไฟล์ หรือเนื้อหาบันทึกวินิจฉัยเป็นพารามิเตอร์ Analytics หรือคีย์ Crashlytics"
+        },
+        {
+          "title": "5. บริการภายนอกและคำขอเครือข่าย",
+          "body": "เมื่อวิเคราะห์และดาวน์โหลดสื่อ แอปอาจเข้าถึงหน้าปลายทาง ทรัพยากรสื่อสาธารณะ และบริการวิเคราะห์สำรองที่จำเป็นสำหรับลิงก์ที่คุณส่ง เว็บไซต์หรือบริการเหล่านั้นอาจบันทึกคำขอตามกฎของตนเอง การประมวลผลข้อมูลของ Firebase อยู่ภายใต้ข้อกำหนดและแนวปฏิบัติด้านความเป็นส่วนตัวของ Google Firebase"
+        },
+        {
+          "title": "6. การจัดเก็บ สิทธิ์ และการลบ",
+          "body": "ประวัติการดาวน์โหลดจะเก็บไว้ในอุปกรณ์เป็นหลัก รูปภาพ วิดีโอ และ GIF ที่ดาวน์โหลดจะบันทึกไว้ในโฟลเดอร์ดาวน์โหลดของระบบหรือพื้นที่สื่อที่แอปเข้าถึงได้ ต้องใช้สิทธิ์เครือข่าย และอาจใช้การแจ้งเตือนบริการเบื้องหน้าสำหรับการดาวน์โหลดเบื้องหลัง คุณสามารถลบประวัติในแอป ล้างข้อมูลแอปในการตั้งค่าระบบ หรือลบไฟล์ที่ดาวน์โหลดผ่านตัวจัดการไฟล์"
+        },
+        {
+          "title": "7. ผู้เยาว์",
+          "body": "แอปนี้ไม่ได้มุ่งเป้าไปที่เด็ก ผู้เยาว์ควรใช้งานภายใต้คำแนะนำของผู้ปกครอง และดาวน์โหลดเฉพาะเนื้อหาที่กฎหมาย กฎของแพลตฟอร์ม และเจ้าของสิทธิ์อนุญาต"
+        },
+        {
+          "title": "8. ข้อจำกัดความรับผิดและการติดต่อ",
+          "body": "โปรดดาวน์โหลดเฉพาะเนื้อหาสาธารณะที่คุณมีสิทธิ์บันทึกและใช้งาน และปฏิบัติตามข้อกำหนด กฎลิขสิทธิ์ และกฎหมายท้องถิ่นที่เกี่ยวข้องกับ X/Twitter และเว็บไซต์ที่เกี่ยวข้อง TXDownloader ไม่มีความเกี่ยวข้องกับ X/Twitter และไม่สนับสนุนการละเมิดลิขสิทธิ์ การเผยแพร่ที่ผิดกฎหมาย การละเมิดความเป็นส่วนตัว หรือการเลี่ยงเนื้อหาแบบชำระเงิน หากมีฟีเจอร์ที่เปลี่ยนวิธีประมวลผลข้อมูล นโยบายนี้จะได้รับการอัปเดต"
+        }
+      ]
+    },
+    {
+      "code": "vi-VN",
+      "name": "Tiếng Việt",
+      "htmlLang": "vi",
+      "title": "Chính sách quyền riêng tư của TXDownloader",
+      "updatedLabel": "Cập nhật: 2026-05-31 | Phiên bản: V1.0",
+      "summaryTitle": "Tóm tắt",
+      "summary": "TXDownloader phân tích và tải media từ các liên kết X/Twitter công khai do người dùng chủ động cung cấp. Ứng dụng không cung cấp đăng nhập tài khoản, truy cập tin nhắn riêng, đăng bài hoặc vượt qua nội dung trả phí. Lịch sử tải xuống và tệp đã tải chủ yếu được lưu trên thiết bị của bạn. Bản phát hành dùng Firebase Analytics và Crashlytics để hiểu tình trạng sản phẩm, lỗi crash và lỗi không nghiêm trọng.",
+      "languageLabel": "Ngôn ngữ khác",
+      "contactLabel": "Liên hệ",
+      "contactText": "Đối với phản hồi liên quan đến quyền riêng tư, vui lòng liên hệ qua TXDownloader GitHub Issues.",
+      "sections": [
+        {
+          "title": "1. Phạm vi",
+          "body": "Chính sách này áp dụng cho TXDownloader. Ứng dụng phân tích và tải media từ các liên kết X/Twitter công khai do người dùng chủ động gửi. Ứng dụng không cung cấp đăng ký tài khoản, đăng nhập mạng xã hội, đăng bài, truy cập tin nhắn riêng hoặc vượt qua nội dung trả phí."
+        },
+        {
+          "title": "2. Thông tin được xử lý",
+          "body": "Ứng dụng có thể xử lý liên kết X/Twitter công khai và văn bản chia sẻ mà bạn nhập, dán hoặc chia sẻ vào ứng dụng; thông tin bài đăng công khai tạm thời cần thiết để hiển thị kết quả; lịch sử tải xuống cục bộ; nhật ký ứng dụng và thông tin lỗi; cùng với nhật ký crash, dữ liệu chẩn đoán, tương tác trong ứng dụng, metadata thiết bị/ứng dụng và tín hiệu sức khỏe sản phẩm do Firebase Analytics và Crashlytics thu thập."
+        },
+        {
+          "title": "3. Cách sử dụng thông tin",
+          "body": "Thông tin này chỉ được dùng để nhận diện liên kết công khai bạn gửi, phân tích media có thể tải xuống, lưu tệp cục bộ, hiển thị lịch sử, hỗ trợ xem trước/phát lại cục bộ, chẩn đoán nguyên nhân lỗi, cải thiện độ ổn định và hiểu các tính năng chính có hoạt động hay không. Chúng tôi không dùng thông tin này cho hồ sơ quảng cáo, đề xuất cá nhân hóa, theo dõi người dùng hoặc bán dữ liệu."
+        },
+        {
+          "title": "4. Firebase Analytics và Crashlytics",
+          "body": "Bản phát hành sử dụng Firebase Analytics và Firebase Crashlytics. Analytics được dùng cho các sự kiện tổng hợp như phân tích liên kết, tải xuống, bộ lọc lịch sử, thay đổi ngôn ngữ và kết quả quyền thông báo. Crashlytics được dùng để ghi nhận crash và ngoại lệ không nghiêm trọng đã được làm sạch. Chúng tôi không cố ý gửi liên kết X/Twitter gốc, URL media, cookie, header ủy quyền, token, nội dung bài đăng, tên người dùng, tên tệp hoặc nội dung nhật ký chẩn đoán dưới dạng tham số sự kiện Analytics hoặc khóa tùy chỉnh Crashlytics."
+        },
+        {
+          "title": "5. Dịch vụ bên thứ ba và yêu cầu mạng",
+          "body": "Khi phân tích và tải media, ứng dụng có thể truy cập trang đích, tài nguyên media công khai và dịch vụ phân tích dự phòng cần thiết cho liên kết bạn gửi. Các website hoặc dịch vụ đó có thể ghi lại yêu cầu theo quy tắc riêng của họ. Việc xử lý dữ liệu Firebase tuân theo điều khoản và thực tiễn quyền riêng tư của Google Firebase."
+        },
+        {
+          "title": "6. Lưu trữ, quyền và xóa dữ liệu",
+          "body": "Lịch sử tải xuống chủ yếu được lưu trên thiết bị. Hình ảnh, video và GIF đã tải được lưu vào thư mục tải xuống của hệ thống hoặc vị trí media mà ứng dụng có thể truy cập. Cần quyền mạng, và thông báo dịch vụ foreground có thể được dùng cho tải xuống nền. Bạn có thể xóa lịch sử trong ứng dụng, xóa dữ liệu ứng dụng trong cài đặt hệ thống hoặc xóa tệp đã tải qua trình quản lý tệp."
+        },
+        {
+          "title": "7. Trẻ vị thành niên",
+          "body": "Ứng dụng này không hướng đến trẻ em. Trẻ vị thành niên nên sử dụng dưới sự hướng dẫn của người giám hộ và chỉ tải nội dung được pháp luật, quy tắc nền tảng và chủ sở hữu nội dung cho phép."
+        },
+        {
+          "title": "8. Tuyên bố miễn trừ và liên hệ",
+          "body": "Chỉ tải nội dung công khai mà bạn có quyền lưu và sử dụng, đồng thời tuân thủ điều khoản, quy tắc bản quyền và luật địa phương áp dụng cho X/Twitter và các website liên quan. TXDownloader không liên kết với X/Twitter và không khuyến khích hoặc hỗ trợ vi phạm bản quyền, phân phối bất hợp pháp, vi phạm quyền riêng tư hoặc vượt qua nội dung trả phí. Nếu các tính năng trong tương lai thay đổi cách xử lý dữ liệu, chính sách này sẽ được cập nhật."
+        }
+      ]
+    }
+  ]
+}

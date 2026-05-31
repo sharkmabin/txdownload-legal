@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TXDownloader プライバシーポリシー</title>
+  <meta name="description" content="TXDownloader は、ユーザーが自ら送信した公開 X/Twitter リンクからメディアを解析し、ダウンロードするアプリです。アカウントログイン、DM へのアクセス、投稿、有料コンテンツの回避機能は提供しません。ダウンロード履歴と保存されたファイルは主に端末内に保存されます。リリース版では Firebase Analytics と Crashlytics を使用し、製品の健全性、クラッシュ、非致命的なエラーを把握します。">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f8fb;
+      --panel: #ffffff;
+      --text: #172033;
+      --muted: #5e6b82;
+      --line: #dfe5ef;
+      --accent: #0b6bcb;
+      --accent-soft: #e8f2ff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #10141d;
+        --panel: #171d29;
+        --text: #eef3fb;
+        --muted: #a7b2c5;
+        --line: #2a3344;
+        --accent: #74b7ff;
+        --accent-soft: #152941;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Noto Sans CJK SC", "Noto Sans Thai", "Noto Sans KR", "Noto Sans JP", Arial, sans-serif;
+      line-height: 1.65;
+    }
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 36px 0 56px;
+    }
+    header, section, footer {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 22px;
+      margin-bottom: 14px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.12;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.18rem;
+      letter-spacing: 0;
+    }
+    p { margin: 0; }
+    .meta, .summary, footer { color: var(--muted); }
+    .summary {
+      background: var(--accent-soft);
+      border-color: var(--line);
+    }
+    .language-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+    a {
+      color: var(--accent);
+      text-underline-offset: 3px;
+    }
+    .language-nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 36px;
+      padding: 6px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--panel);
+      text-decoration: none;
+      font-weight: 650;
+    }
+    .language-nav a[aria-current="page"] {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>TXDownloader プライバシーポリシー</h1>
+      <p class="meta">更新日：2026-05-31｜バージョン：V1.0</p>
+      <nav class="language-nav" aria-label="他の言語"><a href="https://sharkmabin.github.io/txdownload-legal/privacy/zh-CN/">简体中文</a><a href="https://sharkmabin.github.io/txdownload-legal/privacy/en-US/">English</a><a aria-current="page" href="https://sharkmabin.github.io/txdownload-legal/privacy/ja-JP/">日本語</a><a href="https://sharkmabin.github.io/txdownload-legal/privacy/ko-KR/">한국어</a><a href="https://sharkmabin.github.io/txdownload-legal/privacy/th-TH/">ไทย</a><a href="https://sharkmabin.github.io/txdownload-legal/privacy/vi-VN/">Tiếng Việt</a></nav>
+    </header>
+    <section class="summary">
+      <h2>概要</h2>
+      <p>TXDownloader は、ユーザーが自ら送信した公開 X/Twitter リンクからメディアを解析し、ダウンロードするアプリです。アカウントログイン、DM へのアクセス、投稿、有料コンテンツの回避機能は提供しません。ダウンロード履歴と保存されたファイルは主に端末内に保存されます。リリース版では Firebase Analytics と Crashlytics を使用し、製品の健全性、クラッシュ、非致命的なエラーを把握します。</p>
+    </section>
+    <section>
+      <h2>1. 適用範囲</h2>
+      <p>本ポリシーは TXDownloader に適用されます。本アプリは、ユーザーが自ら送信した公開 X/Twitter リンクのメディアを解析し、ダウンロードするツールです。アカウント登録、ソーシャルログイン、投稿、DM へのアクセス、有料コンテンツの回避機能は提供しません。</p>
+    </section>
+    <section>
+      <h2>2. 処理する情報</h2>
+      <p>本アプリは、ユーザーが入力、貼り付け、または共有した公開 X/Twitter リンクと共有テキスト、結果表示に必要な公開投稿情報、ローカルのダウンロード履歴、解析・ダウンロード・再生失敗の診断に使うログとエラー情報、Firebase Analytics と Crashlytics が収集するクラッシュログ、診断情報、アプリ操作、端末/アプリのメタデータ、製品健全性シグナルを処理する場合があります。</p>
+    </section>
+    <section>
+      <h2>3. 利用目的</h2>
+      <p>これらの情報は、公開リンクの識別、ダウンロード可能なメディアの解析、ファイルの端末保存、履歴表示、ローカルプレビュー/再生、失敗原因の診断、安定性改善、主要機能が正常に動作しているかの把握にのみ使用されます。広告プロファイル、個別おすすめ、ユーザー追跡、販売には使用しません。</p>
+    </section>
+    <section>
+      <h2>4. Firebase Analytics と Crashlytics</h2>
+      <p>リリース版では Firebase Analytics と Firebase Crashlytics を使用します。Analytics は解析、ダウンロード、履歴フィルター、言語変更、通知権限結果などの集計イベントに使用します。Crashlytics はクラッシュとサニタイズ済みの非致命的例外の記録に使用します。元の X/Twitter リンク、メディア URL、Cookie、認可ヘッダー、トークン、投稿本文、ユーザー名、ファイル名、診断ログ本文を Analytics のイベントパラメータや Crashlytics のカスタムキーとして意図的に送信しません。</p>
+    </section>
+    <section>
+      <h2>5. 第三者サービスとネットワーク要求</h2>
+      <p>メディアの解析とダウンロード時に、本アプリは送信されたリンクの対象ページ、公開メディアリソース、必要に応じた代替解析サービスにアクセスする場合があります。これらのサイトやサービスは各自のルールに基づきリクエストを記録することがあります。Firebase のデータ処理は Google Firebase の規約とプライバシー慣行に従います。</p>
+    </section>
+    <section>
+      <h2>6. ローカル保存、権限、削除</h2>
+      <p>ダウンロード履歴は主に端末内に保存されます。画像、動画、GIF はシステムのダウンロードフォルダまたはアプリがアクセス可能なメディア保存先に保存されます。ネットワークアクセスが必要であり、バックグラウンドダウンロードにはフォアグラウンドサービス通知を使用する場合があります。アプリ内で履歴を削除し、システム設定でアプリデータを消去し、ファイル管理アプリで保存済みファイルを削除できます。</p>
+    </section>
+    <section>
+      <h2>7. 未成年者</h2>
+      <p>本アプリは子どもを対象としていません。未成年者は保護者の指導のもと、法律、プラットフォーム規則、権利者の条件で許可されたコンテンツのみをダウンロードしてください。</p>
+    </section>
+    <section>
+      <h2>8. 免責事項と連絡</h2>
+      <p>保存および利用する権利を持つ公開コンテンツのみをダウンロードし、X/Twitter および関連サイトの規約、著作権規則、適用法を遵守してください。TXDownloader は X/Twitter と提携しておらず、著作権侵害、違法配布、プライバシー侵害、有料コンテンツの回避を推奨または支援しません。データ処理が変わる機能を追加した場合、本ポリシーを更新します。</p>
+    </section>
+    <footer>
+      <h2>お問い合わせ</h2>
+      <p>プライバシーに関するご連絡は、TXDownloader の GitHub Issues からお願いします。 <a href="https://github.com/sharkmabin/TXDownloader/issues">https://github.com/sharkmabin/TXDownloader/issues</a></p>
+    </footer>
+  </main>
+</body>
+</html>
